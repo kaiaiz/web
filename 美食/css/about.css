@@ -1,0 +1,51 @@
+.about-main{
+	margin-top: 50px;
+	margin-bottom: 108px;
+	overflow: hidden;
+}
+.ab-con{
+	width: 100%;
+	height: about;
+}
+.ab-con li{
+	width: 100%;
+	height: 490px;
+	display: flex;
+	justify-content: space-between;
+}
+.ab-con img{
+	width: 620px;
+	height: auto;
+}
+.ab-con h3{
+	color: #ff386c;
+	font-size: 27px;
+}
+.ab-con li:nth-child(1)>div{
+	padding: 85px 65px 50px 40px;	
+}
+.ab-con li:nth-child(2)>div{
+	padding: 60px 65px 50px 40px;	
+}
+.ab-con li:nth-child(2)>img{
+	width: 630px;
+}
+.ab-con li:nth-child(3)>div{
+	padding: 135px 65px 50px 40px;	
+}
+.ab-con li:nth-child(1)>div h3{
+	margin-bottom: 55px;
+}
+.ab-con li:nth-child(2)>div h3{
+	margin-bottom: 25px;
+}
+.ab-con li:nth-child(3)>div h3{
+	margin-bottom: 89px;
+}
+.ab-con li>div h3{
+	margin-left: 18px;
+}
+.ab-con li>div p{
+	text-indent: 2em;
+	line-height: 26px;
+}

@@ -1,0 +1,14 @@
+{
+	"index.html": {
+		"resources": [
+			"css/index.css",
+			"js/rem.js",
+			"img/md-1.png",
+			"js/index.js",
+			"index.html"
+		],
+		"refer": [
+			"index.html"
+		]
+	}
+}

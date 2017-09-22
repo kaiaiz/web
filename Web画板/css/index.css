@@ -1,0 +1,127 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	-webkit-user-select: none;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 399875 */
+  src: url('http://at.alicdn.com/t/font_399875_oitk9p5zvx61dcxr.eot');
+  src: url('http://at.alicdn.com/t/font_399875_oitk9p5zvx61dcxr.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_399875_oitk9p5zvx61dcxr.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_399875_oitk9p5zvx61dcxr.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_399875_oitk9p5zvx61dcxr.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: "iconfont";
+	font-size: 20px;
+}
+.canvas-view{
+	width: 100%;
+	height: 548px;
+}
+.canvas-tools{
+	display: flex;
+	justify-content:flex-start;
+	width: 100%;
+	height: 48px;
+	line-height: 48px;
+}
+.canvas-tools li{
+	cursor: pointer;
+	padding: 0 18px;
+	box-sizing: border-box;
+	border-right:1px solid hotpink;
+}
+.canvas-tools li:hover{
+	background: rgba(255,105,180,0.3);
+}
+.canvas-tools li>span{
+	padding-right:18px;
+}
+.canvas-tools li:last-child{
+	flex-grow:1;
+	border-right: none;
+	position: relative;
+}
+
+.tools-Type{
+	position: absolute;
+	left: 0;
+	top:-100%;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	
+	background: white;
+}
+.tools-Type input{
+	outline: none;
+	width: 40px;
+	height: 30px;
+	margin-top: 8px;
+	outline: none;
+	border: none;
+	display: block;
+	border: 1px solid palegoldenrod;
+}
+
+
+#clickType{
+	
+}
+main{
+	width:1102px;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	border: 1px solid hotpink;
+	box-sizing: border-box;
+}
+/*历史记录*/
+#history{
+	width: 300px;
+	height: 500px;
+	border-left: 1px solid hotpink;
+	overflow: hidden;
+	padding-bottom: 48px;
+	box-sizing: border-box;
+}
+#history>h5{
+	color: black;
+	font-size: 20px;
+	display: block;
+	height: 48px;
+	text-align: center;
+	line-height: 48px;
+	background: palegoldenrod;
+}
+#history>ul{
+	position:relative;
+	overflow-y:auto;
+	width: 100%;
+	height: 100%;
+}
+
+#history>ul>li{
+	font-size: 16px;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 8px;
+	padding-right: 8px;
+	background: gainsboro;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+}
+#history>ul>li:nth-child(odd){
+	background: rgba(0,0,0,0.2);
+}
+#history>ul>li:active{
+	background: rgba(0,0,0,0.3);
+}
+i{
+	font-style:normal;
+}

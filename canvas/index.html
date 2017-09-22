@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>画板</title>
+	<link rel="stylesheet" href="css/index.css" />
+	<link rel="stylesheet" href="iconfont/iconfont.css" />
+</head>
+<body>
+	<main>
+		<div class="left">
+			<label class='iconfont icon-line type' id='line' active='true' ></label>
+			<label class='iconfont icon-xuxian type' id='dash'></label>
+			<label class='iconfont icon-pan_icon type' id='qianbi'></label>
+			<label class='iconfont icon-yuan type' id='circle'></label>
+			<label class="iconfont icon-unie60d type" id='djx'></label>
+			<label class='iconfont icon-wenzi typec' id='font'></label>
+			<label class='iconfont icon-xinscreenshot typec' id='caijian'></label>
+			<label class='iconfont icon-juxing type' id='rectA'></label>
+			<label class='iconfont icon-iconfontwubianxing type' id='dbx'></label>
+			<label class='iconfont icon-withdraw typec' id='history'></label>
+			<label class="iconfont icon-huabi style" id='strokeS'></label>			
+			<label class='iconfont icon-tianchong style' id='fillS'></label>
+			<label><input type="color" / id='color1'></label>
+			<label><input type="color" / id='color2'></label>
+		</div>
+		<div class="right">
+			<div class="top">
+				<label class='iconfont icon-xinjian' id='createHb'></label>
+				<label id='save' class="typec"><a href="javascript:void(0);"  class='iconfont icon-baocun'></a></label>
+				<label class="iconfont icon-xiangpica_s typec" id='eraser'></label>
+			    <label class='iconfont icon-huanyuan typec' id='nullHB'></label>
+			    <label class='iconfont icon-daorutupian' id='hbdrtp'></label>			
+			    <label class='iconfont icon-masaike' id='hbhbmsk'></label>			
+			    <label class='iconfont icon-ic_invert_colors_px typec' id='colorR'></label>			
+				<label class="iconfont icon-fangdafangdajing" id='hbfd'></label>				
+			    <label class='iconfont icon-suoxiao' id='hbsx'></label>
+			    <label class='iconfont icon-lishijilu' id='hbjl'></label>
+			    
+			</div>
+			<!--创建的画布选项卡-->
+			<ul class="tools">
+				
+			</ul>
+			<!--画布区域-->
+			<div class="bottom">
+	         	<!--<canvas width="1100" height="593"></canvas>-->
+	        	<div class="eraser"></div>
+	        	<div class="caijian"></div>
+	        	<div class="mask"></div>
+	        	<ul class="lsjl">
+					<!--<li>画直线</li>
+					<li>画多边形</li>
+					<li>画圆</li>-->
+				</ul>
+			</div>
+			
+		</div>
+	</main>
+</body>
+<script src='js/CanvasGame.js'></script>
+<script src="js/CanvasHb.js"></script>
+<script src='js/index.js'></script>
+
+</html>

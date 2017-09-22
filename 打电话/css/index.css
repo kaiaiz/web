@@ -1,0 +1,211 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	-webkit-user-select: none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-text-size-adjust: none;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 395977 */
+  src: url('http://at.alicdn.com/t/font_395977_o6hb1471uso1dcxr.eot');
+  src: url('http://at.alicdn.com/t/font_395977_o6hb1471uso1dcxr.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_395977_o6hb1471uso1dcxr.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_395977_o6hb1471uso1dcxr.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_395977_o6hb1471uso1dcxr.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: "iconfont";
+	font-size: 0.3rem;
+	color: #787878;
+}
+header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: #f0f0f0;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0.1rem 0.15rem;
+}
+#aside-top{
+	width: 100%;
+	height: 1rem;
+	display: flex;
+	justify-content: space-around;
+	padding: 0.2rem 0.2rem;
+	box-sizing: border-box;
+}
+#aside-top>li{
+	height: 1rem;
+	font-size: 0.4rem;
+	font-weight: 800;
+}
+#aside-top>li>a{
+	color: #545454;
+}
+#aside-top>li:nth-child(2) a{
+	color: #28c0c6;
+}
+header>form>input{
+	display: block;
+	width: 100%;
+	height:1.2rem;
+	border: none;
+	border-radius: 0.3rem;
+	text-align: center;
+	font-size: 0.4rem;
+	outline: none;
+	padding: 0 0.4rem;
+}
+/*显示号码界面开始*/
+#view{
+	padding-top: 2.6rem;
+	padding-bottom: 2.4rem;
+	padding-right: 0.8rem;
+	box-sizing: border-box;
+	height: 100%;
+}
+#view,#view>dl,#view>dl>dd>ul{
+	width: 100%;
+	background-color: #f7f7f7;
+}
+#view>dl>dt{
+	height: 0.6rem;
+	line-height: 0.6rem;
+	font-size: 0.5rem;
+	/*border-bottom:1px solid #d2d2d2 ;*/
+}
+#view>dl>dd{
+	padding-left: 0.2rem;
+}
+#view>dl>dd>ul{
+	height: 1.64rem;
+	font-size: 0.4rem;
+	line-height: 1.64rem;
+	padding-right: 0.2rem;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	
+	border-bottom:1px solid #d2d2d2 ;
+}
+#view>dl>dd>ul:active{
+	background:papayawhip ;
+}
+.photo>span{
+	font-size: 1rem;
+	/*color: transparent;*/
+	margin-right: 0.4rem;
+}
+#name-xl{
+	width: 0.8rem;
+	height: 15rem;
+	position: fixed;
+	right: 0rem;
+	top:2.4rem;
+	color: #bcbcbc;
+}
+#name-xl>ul{
+	height: 15rem;
+	font-size: 0.3rem;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-content:center;
+	text-align: center;
+	padding: 0 0.1rem;
+	box-sizing: border-box;
+}
+#name-xl>ul>li{
+	border-radius: 50%;
+	padding: 0.1rem;
+	margin-bottom: 0.15rem;
+}
+/*拨号界面显示开始*/
+#m-view{
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	background: #f0f0f0;
+	box-shadow: 0 0 8px 0 rgba(0,0,0,0.3);
+	width: 70%;
+	height: 50%;
+	font-size: 0.5rem;
+	padding: 0.3rem 0;
+	box-sizing: border-box;
+	text-align: center;
+}
+#m-view>div{
+	height: 0.7rem;
+	line-height: 0.8rem;
+	color: #fff;
+}
+#m-view>img{
+	width:35%;
+	height: 35%;
+	border-radius: 50%;
+}
+#m-view>.phone{
+	color: black;
+	margin-top: 0.4rem;
+	margin-bottom: 0.5rem;
+}
+#m-view>.call>a,#m-view>.send>a{
+	color: #b3b3b3;	
+}
+#m-view>.call,#m-view>.send{
+	float: left;
+	width: 50%;
+	height: 1.3rem;
+	line-height: 1.3rem;
+	border: 1px solid #d2d2d2;
+	box-sizing: border-box;
+}
+#m-view>.call{
+	border-left: none;
+	border-right: none;
+}
+#m-view>.send{
+	border-right: none;
+}
+#m-view .bz{
+	color: #606060;
+	margin-top: 33%;
+	font-size: 0.2rem;
+}
+#m-view .m-photo{
+	font-size: 3rem;
+	text-align: center;
+}
+/*菜单界面开始*/
+#menu{
+	padding: 0.3rem;
+	background: #f0f0f0;
+	height: 1.9rem;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	z-index: ;
+	box-sizing: border-box;
+	border-top:1px solid #c0c0c0;
+}
+#menu-footer{
+	display: flex;
+	justify-content: space-around;
+}
+#menu-footer li{
+	text-align: center;
+	line-height: 0.6rem;
+}
+#menu-footer span{
+	display: block;
+	font-size: 0.5rem;
+}

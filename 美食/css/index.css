@@ -1,0 +1,208 @@
+/*关于我们开始*/
+.about{
+	width:100%;
+	height: 637px;
+}
+.us{
+	display: flex;
+	justify-content: space-between;
+}
+.us>img{
+	width: 600px;
+}
+.us>div{
+	/*line-height: 637px;*/
+	width: 680px;
+	padding:113px 23px 86px;
+	box-sizing: border-box;
+	text-indent: 2em;
+	text-align: justify;
+	font-size: 14px;
+	letter-spacing:0.5px;
+	line-height: 32px;
+}
+.us>div p:last-child{
+	margin-top:37px;
+}
+/*热销产品开始*/
+.Selling{
+	width: 100%;
+	height: 2664px;
+	background: url(../img/us-background.png) no-repeat;
+	background-size: 100% 2665px;
+	overflow: hidden;
+}
+.Selling .rxcp{
+	margin-top: 120px;
+	margin-left: 404px;
+}
+.Selling .rxcp .english{
+	color: #ffe640;
+	border-color:#ffe640;
+}
+.Selling main{
+	height: audo;
+}
+.product{
+	margin-top:90px ;
+	width: 100%;
+	height: 1060px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.product li{
+	width: 300px;
+	height: 530px;
+	padding-bottom: 73px;
+	box-sizing: border-box;
+	position: relative;
+}
+.price-text{
+	width: 100%;
+	height: 340px;
+	padding: 8px;
+	box-sizing: border-box;
+	background: #feffe0;
+	border-radius: 30px;
+	overflow: hidden;
+}
+.price-text div{
+	height: 324px;
+	border: 1px solid #f699b4;
+	font-size: 27px;
+	text-align: center;
+	padding: 30px 25px;
+	box-sizing: border-box;
+	color: #000;
+	border-radius: 30px;
+}
+.price-text p{
+	margin-top: 30px;
+	font-size: 16px;
+	text-align: justify;
+}
+.price:hover{
+	transform: rotate(-270deg);
+	transition: all 0.3s;
+}
+.price:hover img{
+	transform: rotate(-90deg);
+}
+.price{
+	width: 262px;
+	height: 262px;
+	border-radius: 50%;
+	background:-webkit-linear-gradient(0,#f699b4 50%,#feffe0 50%);
+	position: absolute;
+	top: 196px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.price img{
+	width:242px;
+	height: 242px;
+	border-radius: 50%;
+}
+.Selling .zxdt{
+	margin-left: 404px;
+	margin-bottom: 87px;
+}
+.Selling .zxdt .english{
+	color: #ffe640;
+	border-color:#ffe640;
+}
+.zxdt-zs{
+	width: 100%;
+	height: 600px;
+	display: flex;
+	justify-content: space-between;
+}
+.zxdt-zs li{
+	width: 406px;
+	background: #feffe0;
+}
+.zxdt-text{
+	width: 100%;
+	height: 300px;
+	padding: 11px;
+	box-sizing: border-box;
+	color: #171717;
+	
+}
+.zxdt-zs li h4{
+	font-size: 20px;
+	margin-bottom: 28px;
+}
+.zxdt-zs li p{
+	text-indent: 2em;
+	text-align: justify;
+	font-size: 14px;
+	line-height: 28px;
+}
+.zxdt-price{
+	width: 406px;
+	height: 300px;
+	overflow: hidden;
+}
+.zxdt-zs li img{
+	width: 406px;
+	height: 300px;
+}
+.zxdt-zs li img:hover{
+
+	/*transform: scaleX(2);*/
+}
+/*门店介绍*/
+.md{
+	overflow: hidden;
+}
+.mdjs{
+	margin-top: 30px;
+	margin-bottom: 78px;
+}
+.md-1{
+	width: 100%;
+	height: 396px;
+	display: flex;
+	justify-content: space-between;
+}
+.md-1>div{
+	padding: 53px 64px;
+}
+.md-1>div h1{
+	font-size: 50px;
+	margin-bottom: 38px;
+	margin-left: -27px;
+}
+.md-1>div p{
+	text-align: justify;
+	font-size: 14px;
+	line-height: 40px;
+}
+.md-1>img{
+	width: 654px;
+	height: 344px;
+}
+.md-fgx{
+	width: 100%;
+	height: 34px;
+	display: flex;
+	justify-content: space-between;
+}
+.md-fgx li{
+	width: 207px;
+	background: url(../img/md-fgx.png) no-repeat center center;
+}
+.md-2{
+	margin-top:106px ;
+}
+.md-3{
+	margin-top:92px;
+	margin-bottom: 75px;
+}

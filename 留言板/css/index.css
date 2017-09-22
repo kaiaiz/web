@@ -1,0 +1,98 @@
+*{
+	margin:0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+#ly{
+	width: 580px;
+	height: 100%;
+	margin: 120px auto 0;
+	border: 1px solid pink;
+	box-sizing: border-box;
+	overflow: hidden;
+	position: relative;
+}
+.ly-head{
+	text-align: center;
+	font-size: 28px;
+	color: #ff6600;
+	border-bottom:1px solid pink;
+}
+#ly-content{
+	width: 100%;
+	resize:none;
+	outline: none;
+	border: none;
+	font-size: 18px;
+	padding: 10px;
+	text-indent: 2em;
+	box-sizing: border-box;
+}
+.lz-sy{
+	position: absolute;
+	bottom:8px;
+	right: 5px;
+	font-size: 12px;
+}
+.lz-sy span{color: red;font-size:15px;}
+.ly-tools{
+	display: flex;
+	justify-content: flex-start;
+	cursor: pointer;
+	padding-bottom: 8px; 
+	border-bottom: 1px solid pink;
+	box-sizing: border-box;
+	position: relative;
+}
+.ly-tools>li{
+	padding: 0 8px;
+}
+.ly-tools>li:hover{
+	background: #fff;
+}
+.ly-zs{
+	padding: 14px 0;
+	box-sizing: border-box;
+}
+.ly-zs li{
+	width: 100%;
+	padding: 5px 10px;
+	font-size: 12px;
+	color: black;
+	box-sizing: border-box;
+}
+.ly-zs li p {
+	margin-bottom: 3px;
+	text-indent: 2em;
+	border-bottom: 2px solid blue; 
+	padding-bottom: 3px;
+}
+time{
+	margin-left: 3px;
+	color: red;
+}
+.emotion ul{
+	opacity: 0;
+	transition: all 0.5s;
+	overflow: hidden;
+	width: 60%;
+	height: 150px;
+	background: white;
+	border-right:1px solid pink; 
+	border-bottom: 1px solid pink;
+	position: absolute;
+	top: 30px;
+	left: 0;
+	display: none;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	box-sizing: border-box;
+}
+.emotion ul li{
+	width: 24px;
+	height: 24px;
+	padding: 3px; 
+}
+

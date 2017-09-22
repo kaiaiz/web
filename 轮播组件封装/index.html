@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>轮播组件</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js"></script>
+    <script>
+    window.onload = function() {
+
+      /*  LB({ id: "#lb", 
+        	btnCenter: "right", 
+        	btnLrHeight: "-75%", 
+        	data: ["img/lb_1.jpg", "img/lb_2.jpg", "img/lb_3.jpg"],
+        	animate:"opcity"
+        });
+*/      
+		 LB({ id: "#lb", 
+        	btnCenter: "right", 
+        	btnLrHeight: "-75%", 
+        	data: ["img/lb_1.jpg", "img/lb_2.jpg", "img/lb_3.jpg"],
+        	animate:"flowLeft"
+        });
+    }
+    </script>
+</head>
+
+<body>
+    <!--
+		一、该组件能做什么呢？
+			1、只需要改动被插入的节点 高度、宽度值即可确定内部的数据大小
+			2、可以改变 轮播组件左右按钮的高度位置，左右距外部盒子的间距
+			3、可以改变 轮播组件的 底部轮播点的 左(left)、中(center)、右(right)位置 默认-居中
+			4、可以切换 动画的方式 渐变 opcity、滑入、等带扩张的运动方式
+			5、解决快速点击、滑动出现的 连载效应
+			6、js只需传入 轮播组件的最大盒子 id属性值即可，实现所有效果
+	-->
+    <section id="lb">
+        <!-- <ul class="lb-data-imgs">
+			<li><a href="javascript:void(0);"><img src="img/lb_1.jpg" alt=""></a></li>
+			<li><a href="javascript:void(0);"><img src="img/lb_2.jpg" alt=""></a></li>
+			<li><a href="javascript:void(0);"><img src="img/lb_3.jpg" alt=""></a></li>
+		</ul>
+		<ul class="lb-botton-center">
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+		<ul class="lb-botton-lr">
+			<li>&lt;</li>
+			<li>&gt;</li>
+		</ul> -->
+    </section>
+</body>
+
+</html>

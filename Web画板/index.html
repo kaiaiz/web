@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>画板玩具</title>
+		<link rel="stylesheet" href="css/index.css" />
+		<script src="js/index.js"></script>
+		<script src="js/test.js"></script>
+	</head>
+	<body>
+		<section class="canvas-view">
+			<main>
+				<ul class="canvas-tools iconfont">
+					<li><span>颜色</span><input type="color" id="color"/></li>
+					<li><span>粗细</span><input type="range" min="1" max="50" value="5" id="range"/> </li>
+					<li id="eraser">&#xe600;</li>
+					<li id="GN-HZ">
+						<select name="clickType" id="clickType">
+							<option value="0">直线</option>
+							<option value="1">铅笔</option>
+							<option value="2">多边星</option>
+							<option value="3">五角星</option>
+							<option value="4">画圆</option>
+							<option value="-1">待添加功能</option>
+						</select>
+					</li>
+					<li>
+						<div class="tools-Type tools-0">
+							开发者：FX-`喂你袋盐
+						</div>
+						<div class="tools-Type tools-1">
+							无微调
+						</div>
+						<div class="tools-Type tools-2">
+							边：<input id="T-bian" type="number" value="5" min="3"/>
+						</div>
+						<div class="tools-Type tools-3">
+							角：<input id="T-jiao" type="number" value="5" min="3"/>
+						</div>
+						<div class="tools-Type tools-4">
+							无微调
+						</div>
+						<div class="tools-Type tools-4">
+							QQ:1160007652
+						</div>
+					</li>
+				</ul>
+				<canvas id="canvas" width=800 height=500></canvas>
+				<section id="history" class="iconfont">
+					<h5>历史记录</h5>
+					<ul>
+						
+					</ul>
+				</section>
+			</main>
+		</section>
+		
+	</body>
+</html>

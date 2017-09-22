@@ -1,0 +1,22 @@
+.store-main,.store-flag{
+	background: #fdfdfd;
+}
+.store-main{
+	overflow: hidden;
+	padding-bottom:80px;
+}
+.store-main .text{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.text ul{
+	margin-top: 30px;
+	width: 536px;
+}
+.text ul li{
+	margin-bottom: 45px;	
+}
+.text ul li p{
+	line-height: 25px;	
+}

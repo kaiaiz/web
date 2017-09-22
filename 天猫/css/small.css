@@ -1,0 +1,755 @@
+/*百分比  流失*/
+
+.container-fiuld {
+    width: 100%;
+}
+
+
+/* 固定 */
+.mobel{
+    display: block;
+}
+.body-1230{
+    display: none;
+}
+.l-medium{
+    display: none;
+}
+.container {
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.row {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    background: #fff;
+}
+
+.col-xs-1 {
+    width: 5%;
+}
+
+.col-xs-2 {
+    width: 10%;
+}
+
+.col-xs-3 {
+    width: 15%;
+}
+
+.col-xs-4 {
+    width: 20%;
+}
+
+.col-xs-5 {
+    width: 25%;
+}
+
+.col-xs-6 {
+    width: 30%;
+}
+
+.col-xs-7 {
+    width: 35%;
+}
+
+.col-xs-8 {
+    width: 40%;
+}
+
+.col-xs-9 {
+    width: 45%;
+}
+
+.col-xs-10 {
+    width: 50%;
+}
+
+.col-xs-11 {
+    width: 55%;
+}
+
+.col-xs-12 {
+    width: 60%;
+}
+
+.col-xs-13 {
+    width: 65%;
+}
+
+.col-xs-14 {
+    width: 70%;
+}
+
+.col-xs-15 {
+    width: 75%;
+}
+
+.col-xs-16 {
+    width: 80%;
+}
+
+.col-xs-17 {
+    width: 85%;
+}
+
+.col-xs-18 {
+    width: 90%;
+}
+
+.col-xs-19 {
+    width: 95%;
+}
+
+.col-xs-20 {
+    width: 100%;
+}
+.col-xs-12-10{
+    width: 83.33333%;
+}
+.col-xs-12-8{
+    width: 66.66666%;
+}
+.col-xs-12-4{
+    width: 33.33333%;
+}
+.col-xs-12-3{
+    width: 25%;
+}
+.col-xs-12-2{
+    width: 16.66666%;
+}
+.mobel-box1 {
+    overflow: hidden;
+    /*background: red;*/
+    position: fixed;
+    z-index: 10;
+    background: transparent;
+}
+
+.mobel-search {
+    overflow: hidden;
+    height: 1.125rem;
+
+    background: -webkit-linear-gradient(top,rgba(0,0,0,.7),rgba(0,0,0,0));
+}
+
+.mobel-search>div {
+    float: left;
+}
+
+.mobel-search-more {
+    height: 80%;
+}
+
+.mobel-search-input {
+    height: 80%;
+
+    /*background: red;*/
+}
+
+.mobel-search-more a,.mobel-search-login a{
+    display: block;
+    height: 1.125rem;
+    width: 100%;
+    text-align: center;
+}
+.mobel-search-input>input{
+    border: 0;
+    height: 1.075rem;
+    margin-top: 0.025rem;
+    background: #f3f3f4;
+    float: left;
+    /* -webkit-tap-highlight-color: rgba(0, 0, 0, 0);*/
+}
+.mobel-search-more a>div{
+    height: 1.125rem;
+    width: 1.125rem;
+    background-image: url(../img/dingbu.png);
+    background-size: 8rem 0.875rem;
+    background-position: 0.25rem 0.125rem;
+    background-repeat: no-repeat;
+    margin:0 auto;
+}
+.mobel-search-login a>div{
+    height: 1.125rem;
+    width: 1.125rem;
+    line-height: 1.125rem;
+    margin: 0 auto;
+    font-size: 0.4rem;
+    color: #fff;
+}
+
+.mobel-search-input .mobel-button{
+
+    box-sizing: border-box;
+    background-image: url(../img/dingbu.png);
+    background-size: cover;
+    background-position: -2.75rem 0.05rem;
+    background-repeat: no-repeat;
+    float: right;
+    border-bottom-right-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+.mobel-search-input .mobel-input{
+    font-size: 0.3rem;
+    border-bottom-left-radius: 0.25rem;
+    border-top-left-radius: 0.25rem;
+}
+/*--------------------------banner------------------*/
+.mobel-banner{
+    width: 100%;
+    height: auto;
+    /*background: blueviolet;*/
+}
+.mobel-banner a img{
+    display: block;
+    width: 100%;
+}
+.mobel-box2 .mobel-banner a{
+    display: block;
+    position: relative;
+    /*z-index: -10;*/
+}
+.mobel-banner .banner-dot ul li{
+    list-style: none;
+    display: block;
+    width: 0.15rem;
+    height: 0.15rem;
+    border-radius: 50%;
+    background: rgba(0,0,0,0.5);
+    float: left;
+    margin:0.05rem 1%;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.mobel-banner .banner-dot ul li:first-child{
+    background: #fff;
+    border:0.025rem solid rgba(0,0,0,0.5);
+}
+.mobel-banner .banner-dot ul{
+    display: block;
+    overflow: hidden;
+    margin:0 auto;
+}
+.mobel-banner .banner-dot{
+    position: relative;
+    top: -0.5rem;
+}
+/*--------------------------------*/
+.mobel-topNav{
+    overflow: hidden;
+    font-size: 0.3rem;
+}
+.mobel-topNav>div{
+    width:20%;
+}
+.mobel-topNav ul{
+    list-style: none;
+}
+.mobel-topNav ul li{
+    float: left;
+    list-style: none;
+    padding: 0.025rem;
+    box-sizing: border-box;
+}
+.mobel-topNav ul li a{
+    display: block;
+    margin: top;
+}
+.mobel-topNav ul li a h3{
+    font-weight: 400;
+    font-size: 0.3rem;
+    padding: 0.125rem 0;
+    text-align: center;
+}
+.mobel-topNav .mobel-topNav-one img{
+    display: block;
+    width: 60%;
+    margin-left: 20%;
+}
+.mobel-topNav ul li:nth-child(5)~li{
+    margin-top: 0.25rem;
+}
+/*------------------------热点*/
+.mobel-Hotnews .mobel-Hotnews-left img{
+    display: block;
+    height: 1rem;
+    margin: 0 auto;
+}
+.mobel-Hotnews .mobel-Hotnews-right img{
+    display: block;
+    height: 1rem;
+    margin: 0 auto;
+}
+.mobel-Hotnews .mobel-Hotnews-left{
+    border-right: 1px solid #ccc;
+}
+.mobel-Hotnews{
+    height: 1.5rem;
+}
+.mobel-Hotnews>div{
+    height: 1rem;
+    float:left;
+    box-sizing: border-box;
+    margin-top: 0.25rem;
+}
+.mobel-Hotnews .mobel-Hotnews-right .hotNews-adv{
+
+}
+.mobel-Hotnews .mobel-Hotnews-right>div{
+    float: left;
+    font-size: 0.3rem;
+}
+.mobel-Hotnews .mobel-Hotnews-right .hotNews-adv-2{
+    margin-top: 0.2rem;
+    color: #ff2f2f;
+}
+/*-----------------------------------*/
+.mobel-adv1{
+    background: #f0f0f0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.mobel-adv1>div{
+    overflow: hidden;
+    float: left;
+}
+.mobel-adv1 div:first-child{
+    border-right: 0.075rem solid #f0f0f0;
+    box-sizing: border-box;
+}
+.mobel-adv1>div>a{
+    height: 100%;
+}
+.mobel-adv1>div>a>img{
+    height: 100%;
+}
+/*-----------------必抢*/
+.mobel-biqiang{
+    height: 0.8rem;
+    background: #f0f0f0;
+    color: #ff2e2e;
+    overflow: hidden;
+}
+.mobel-biqiang>div{
+    margin:0 auto;
+    /*height: 32px;*/
+    width: 50%;
+}
+.vline-left,.vline-right{
+    width:30%;
+    height: 0.025rem;
+    border: 0.025rem solid #ff2e2e;
+    float: left;
+    box-sizing: border-box;
+    margin-top: 0.25rem;
+}
+.vline-word{
+    width: 40%;
+    float: left;
+    /*margin: 0 auto;*/
+    text-align: center;
+    padding: 0 0.3rem;
+    box-sizing: border-box;
+    /*margin-top: 0.1rem;*/
+}
+.vline-word>img{
+    display: block;
+    width: 0.38rem;
+    float: left;
+}
+.vline-word>span{
+    line-height: 0.65rem;
+    font-size: 0.39rem;
+    /*margin-top: 0;*/
+    float: right;
+}
+.mobel-biqiang ul{
+    overflow: hidden;
+}
+.mobel-remai ul li{
+    list-style: none;
+    overflow: hidden;
+    float: left;
+    margin-top:0.17rem;
+    /*border: 1px solid #ccc;*/
+    box-sizing: border-box;
+}
+.mobel-remai ul li h3{
+    font-weight: 400;
+    font-size:0.3rem;
+    text-align: center;
+    color: #000000;
+}
+.mobel-remai ul li>div{
+    width: 100%;
+    /*margin: 0 auto;*/
+    text-align: center;
+}
+.mobel-remai ul li>a>img{
+
+    margin: 0.3rem auto;
+    display: block;
+}
+.price{
+    font-size: 0.3rem;
+    display: inline-block;
+    /*float: left;*/
+    color: #ff2e2e;
+}
+.sale-point{
+    font-size: 0.3rem;
+    display: inline-block;
+    /*float: left;*/
+    color: #9b9b9b;
+    text-decoration: line-through;
+}
+.mobel-kuwai>div{
+    width: 33.3333%;
+    float: left;
+}
+.mobel-kuwaiNav .mobel-vline>div{
+    width: 25%;
+    margin-top: 0.375rem;
+    color: #4a84e2;
+}
+.mobel-kuwaiNav .mobel-vline>div{
+    border-color: #4a84e2;
+}
+.mobel-kuwaiNav .mobel-vline .vline-word{
+    width: 50%;
+    margin-top: 0.05rem;
+}
+.mobel-kuwai>div>a>img{
+    width: 100%;
+}
+.mobel-moban .mobel-vline>div{
+    width: 25%;
+    margin-top: 0.375rem;
+    color: #FF8000;
+}
+.mobel-moban .mobel-vline>div{
+    border-color: #FF8000;
+}
+.mobel-moban .mobel-vline .vline-word{
+    width: 50%;
+    margin-top: 0.05rem;
+}
+.mobel-moban{
+    /*height: 0.8rem;*/
+    background: #f0f0f0;
+    color: #ff2e2e;
+    overflow: hidden;
+}
+.mobel-moban .mobel-vline{
+    margin: 0 auto;
+    overflow: hidden;
+}
+.mobel-moban .mobel-temai{
+    overflow: hidden;
+}
+.mobel-moban .mobel-temai>div>a{
+    overflow: hidden;
+}
+.mobel-moban .mobel-temai>div{
+    overflow: hidden;
+    float: left;
+}
+.mobel-moban .mobel-temai>div>a>img{
+    display: block;
+}
+.mobel-information .mobel-vline>div{
+    width: 25%;
+    margin-top: 0.375rem;
+    color: #009F8A;
+}
+.mobel-information .mobel-vline>div{
+    border-color: #009F8A;
+}
+.mobel-information .mobel-vline .vline-word{
+    width: 50%;
+    margin-top: 0.05rem;
+}
+.mobel-information{
+    /*height: 0.8rem;*/
+    background: #f0f0f0;
+    color: #ff2e2e;
+    overflow: hidden;
+}
+.mobel-information .mobel-vline{
+    margin: 0 auto;
+    overflow: hidden;
+}
+.mobel-information .mobel-tuijian>div{
+    width: 33.33333%;
+    float: left;
+}
+.mobel-information .mobel-tuijian>div>img{
+    display: block;
+}
+/*-----------------------便捷生活*/
+.mobel-conveninent .mobel-vline>div{
+    width: 25%;
+    margin-top: 0.375rem;
+    color: #43AF00;
+}
+.mobel-conveninent .mobel-vline>div{
+    border-color: #43AF00;
+    margin-top: 0.25rem;
+}
+.mobel-conveninent .mobel-vline .vline-word{
+    width: 50%;
+    margin-top: 0.05rem;
+}
+.mobel-conveninent{
+    /*height: 0.8rem;*/
+    background: #f0f0f0;
+    color: #ff2e2e;
+    overflow: hidden;
+}
+.mobel-conveninent .mobel-vline{
+    margin: 0 auto;
+    overflow: hidden;
+}
+.mobel-conveninent .mobel-con-life>div{
+    float: left;
+}
+.mobel-conveninent .mobel-con-life>div>a{
+    float: left;
+    display: block;
+    overflow: hidden;
+    height: auto;
+}
+.mobel-conveninent .mobel-con-life>div>a>img{
+    display: block;
+}
+.mobel-conveninent .mobel-con-life{
+    /*margin-top: 0.1rem;*/
+    background: #FFFFFF;
+}
+/*--------------国际海狗*/
+.mobel-internatronal .mobel-vline>div{
+    width: 25%;
+    margin-top: 0.375rem;
+    color: #8828DD;
+}
+.mobel-internatronal .mobel-vline>div{
+    border-color: #8828DD;
+}
+.mobel-internatronal .mobel-vline .vline-word{
+    width: 50%;
+    margin-top: 0.05rem;
+}
+.mobel-internatronal{
+    /*height: 0.8rem;*/
+    background: #f0f0f0;
+    color: #ff2e2e;
+    overflow: hidden;
+}
+.mobel-internatronal .mobel-vline{
+    margin: 0 auto;
+    overflow: hidden;
+}
+.mobel-internatronal .mobel-tuijian>div{
+    width: 33.33333%;
+    float: left;
+}
+.mobel-internatronal .mobel-tuijian>div>img{
+    display: block;
+}
+/*--------------------------------*/
+.mobel-superMarket .mobel-vline>div{
+    width: 25%;
+    margin-top: 0.375rem;
+    color: #E24AA5;
+}
+.mobel-superMarket .mobel-vline>div{
+    border-color: #E24AA5;
+}
+.mobel-superMarket .mobel-vline .vline-word{
+    width: 50%;
+    margin-top: 0.05rem;
+}
+.mobel-superMarket{
+    /*height: 0.8rem;*/
+    background: #f0f0f0;
+    color: #ff2e2e;
+    overflow: hidden;
+}
+.mobel-superMarket .mobel-vline{
+    margin: 0 auto;
+    overflow: hidden;
+}
+.mobel-superMarket .mobel-market ul,.mobel-superMarket .mobel-market ul li{
+    list-style: none;
+    float: left;
+}
+.mobel-superMarket .mobel-market>ul>li>a>img{
+    width: 100%;
+    display: block;
+}
+/*--------------------------------生活的*/
+.mobel-loveLife .mobel-vline>div{
+    width: 25%;
+    margin-top: 0.375rem;
+    color: #8828DD;
+}
+.mobel-loveLife .mobel-vline>div{
+    border-color: #8828DD;
+}
+.mobel-loveLife .mobel-vline .vline-word{
+    width: 50%;
+    margin-top: 0.05rem;
+}
+.mobel-loveLife{
+    /*height: 0.8rem;*/
+    background: #f0f0f0;
+    color: #ff2e2e;
+    overflow: hidden;
+}
+.mobel-loveLife .mobel-vline{
+    margin: 0 auto;
+    overflow: hidden;
+}
+.mobel-loveLife .mobel-tuijian>div{
+    width: 25%;
+    float: left;
+}
+.mobel-loveLife .mobel-tuijian>div>img{
+    display: block;
+}
+/*-------------------------热门行业*/
+.mobel-hotJob .mobel-vline>div{
+    width: 25%;
+    margin-top: 0.375rem;
+    color: #E24AA5;
+}
+.mobel-hotJob .mobel-vline>div{
+    border-color: #E24AA5;
+}
+.mobel-hotJob .mobel-vline .vline-word{
+    width: 50%;
+    margin-top: 0.05rem;
+}
+.mobel-hotJob{
+    /*height: 0.8rem;*/
+    background: #f0f0f0;
+    color: #ff2e2e;
+    overflow: hidden;
+}
+.mobel-hotJob .mobel-vline{
+    margin: 0 auto;
+}
+.mobel-hotJob .mobel-market1>ul{
+    list-style: none;
+    background: #fff;
+    overflow: hidden;
+}
+.mobel-hotJob .mobel-market1 ul li{
+    list-style: none;
+    border: 0;
+    padding: 0;
+    float: left;
+    text-align: center;
+    padding: 0.3rem 0;
+}
+.mobel-hotJob .mobel-market1>ul>li>a{
+    display: block;
+    list-style: none;
+    width: 100%;
+    float: left;
+}
+.mobel-hotJob .mobel-market1>ul>li>a>img{
+    display: block;
+    list-style: none;
+    width: 80%;
+    margin: 0 auto;
+}
+.mobel-hotJob .mobel-market1>ul>li>a>h3{
+    font-size: 0.33rem;
+    font-family: helvetica;
+    color: #000;
+}
+.mobel-hotJob .mobel-market1>ul>li>a>h4{
+    font-size: 0.3rem;
+    font-family: helvetica;
+    color: #9b9b9b;
+}
+/*--------------------------品排旗舰*/
+.mobel-qijian .mobel-vline>div{
+    width: 25%;
+    margin-top: 0.375rem;
+    color: #2f2f2f;
+}
+.mobel-qijian .mobel-vline>div{
+    border-color: #2f2f2f;
+}
+.mobel-qijian .mobel-vline .vline-word{
+    width: 50%;
+    margin-top: 0.05rem;
+}
+.mobel-qijian .mobel-vline{
+    margin: 0 auto;
+}
+.mobel-qijian .mobel-market>ul>li{
+    list-style: none;
+    overflow: hidden;
+    float: left;
+}
+.mobel-qijian .mobel-market>ul>li>div{
+    float: left;
+}
+.mobel-qijian .mobel-market>ul>li>div>a{
+    list-style: none;
+    display: block;
+    width: 100%;
+    float: left;
+}
+.mobel-qijian .mobel-market ul>li>div>a>img{
+    list-style: none;
+    display: block;
+    width: 100%;
+}
+.mobel-qijian .mobel-market ul>li>div>div>a>img{
+    display: block;
+    width: 100%;
+}
+.mobel-qijian .mobel-market ul>li>div>div>a{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+.mobel-qijian .mobel-market ul>li>div>div>span{
+    font-size: 0.3rem;
+    display: block;
+    line-height: 0.5rem;
+    margin-left: 0.3rem;
+}
+.mobel-qijian .mobel-market ul>li>div>div{
+    float: left;
+}
+.mobel-footer .endshow img{
+    width: 2rem;
+    display: block;
+    padding: 0.5rem 0;
+}
+.mobel-footer-nav{
+    background: #fff;
+}
+.mobel-footer-nav a{
+    color: #999;
+    font-size: 0.3rem;
+    padding: 0 0.2rem;
+}
+.mobel-footer-nav>div{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}

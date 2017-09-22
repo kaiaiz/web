@@ -1,0 +1,16 @@
+.news-main{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.news-main main{
+	display: flex;
+	justify-content: space-between;
+	padding: 24px 10px;
+	flex-wrap: wrap;
+}
+.news-main img{
+	width: 600px;
+	height: 830px;
+	margin-bottom: 32px;
+}

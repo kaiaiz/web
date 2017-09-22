@@ -1,0 +1,153 @@
+.mobel{
+    display: none;
+}
+.body-1230{
+    display: block;
+}
+.container {
+    margin: 0 auto;
+    /*overflow: hidden;*/
+    width: 992px;
+}
+.brand-list{
+    /*width: 488px;*/
+}
+.container-fiuld {
+    width: 100%;
+}
+.col-bg-1 {
+    width: 5%;
+}
+
+.col-bg-2 {
+    width: 10%;
+}
+
+.col-bg-3 {
+    width: 15%;
+}
+
+.col-bg-4 {
+    width: 20%;
+}
+
+.col-bg-5 {
+    width: 25%;
+}
+
+.col-bg-6 {
+    width: 30%;
+}
+
+.col-bg-7 {
+    width: 35%;
+}
+
+.col-bg-8 {
+    width: 40%;
+}
+
+.col-bg-9 {
+    width: 45%;
+}
+
+.col-bg-10 {
+    width: 50%;
+}
+
+.col-bg-11 {
+    width: 55%;
+}
+
+.col-bg-12 {
+    width: 60%;
+}
+
+.col-bg-13 {
+    width: 65%;
+}
+
+.col-bg-14 {
+    width: 70%;
+}
+
+.col-bg-15 {
+    width: 75%;
+}
+
+.col-bg-16 {
+    width: 80%;
+}
+
+.col-bg-17 {
+    width: 85%;
+}
+
+.col-bg-18 {
+    width: 90%;
+}
+
+.col-bg-19 {
+    width: 95%;
+}
+
+.col-bg-20 {
+    width: 100%;
+}
+.col-bg12-1{
+    width: 8.33333%;
+}
+.col-bg12-2{
+    width: 16.66666%;
+}
+.col-bg12-3{
+    width: 8.33333%;
+}
+.col-bg12-4{
+    width: 33.333333%;
+}
+.col-bg12-5{
+    width: 41.666666%;
+}
+.col-bg12-6{
+    width: 50%;
+}
+.col-bg12-7{
+    width: 58.333333%;
+}
+.col-bg12-8{
+    width: 66.666666%;
+}
+.col-bg12-9{
+    width: 75%;
+}
+.col-bg12-10{
+    width: 83.333333%;
+}
+.col-bg12-11{
+    width: 91.666666%;
+}
+.col-bg12-12{
+    width: 100%;
+}
+.nav-quick-menu li:last-child{
+    display: none;
+}
+.content .nav-outer .main-nv .inner-nav .category-nav .bgNavHidden{
+    display: none;
+}
+.col-lg-hid{
+    display: block;
+}
+.col-md-hid{
+    display: block;
+}
+.col-bg-hid{
+    display: none;
+}
+.col-bg-hx{
+    width:24%;
+}
+.guessitem a div{
+    padding:30px 15px;
+}
